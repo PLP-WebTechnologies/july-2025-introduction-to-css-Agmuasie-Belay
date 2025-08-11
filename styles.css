@@ -1,0 +1,71 @@
+/* ====== General Page Styling ====== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* ====== Header ====== */
+.site-header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ====== Intro Section ====== */
+.intro {
+    background-color: #e0f7fa;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #00796b;
+}
+
+/* ====== Card Styling (Box Model Demo) ====== */
+.card {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    width: 300px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e68900;
+}
+
+/* ====== Footer ====== */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    margin-top: 20px;
+}
